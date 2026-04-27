@@ -1,0 +1,181 @@
+/* .h1{
+    color: red;
+}
+
+.h1{
+    color: green;
+}
+
+.p{
+    color: yellow;
+}
+
+.my_class{
+    color:brown;
+}
+
+.weapper{
+    height: 200px;
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid red;
+
+} */
+
+
+.box{
+    box-sizing: border-box;
+    width: 200px;
+    height: 150px;
+    border: 3px solid rgb(234, 16, 16);
+    border-style: double;
+    margin: 10px;
+    padding: 10px;
+
+}
+.red{
+    color: red;
+}
+
+h1{
+    color: rgb(224, 6, 6);
+    text-decoration: underline;
+}
+div p{
+    color:blue;
+    background-color: brown;
+}
+
+p::first-line{
+    color: blueviolet;
+    background-color: chartreuse;
+}
+
+.box1{
+    width: 50%;
+    height:50%;
+    margin: 10px;
+    border: 10px rgb(0, 94, 255) double;
+    padding: 10%;
+    text-align: justify;
+    text-indent: 50%;
+
+}
+.box2{
+    text-decoration: underline;
+    text-overflow:ellipsis;
+    color: brown;
+    text: indent 20px;
+    text-align: center;
+}
+
+.box2{
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    border: solid black;
+    padding:10%;
+}
+.box2:hover{
+    background-color: aqua;
+
+}
+.box3{
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    border: solid black;
+    padding:10%;
+    border-top: 10px  solid red;
+    border-bottom: 10px solid red;
+    border-left: 15px solid  blue;
+    border-right: 15px solid blue;
+}
+
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    font-style: italic;
+    font-display: block;
+    color: rgb(225, 13, 137);
+    text-shadow:15px 5px 10px blue;
+}
+/* .wrapper{
+    border: 1px solid black;
+    width: 200px;
+    height: 300px;
+}
+
+.item{
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    border: 10px solid black;
+    
+}
+.item1{
+    background-color:  red;
+    flex-basis: 200px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.item2{
+    background-color: blue;
+}
+.item3{
+    background-color: yellow;
+} */
+
+.wrapper{
+    display:grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 70px 70px;
+    
+}
+.item{
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+    font-size: 32px;
+    color: white;
+    animation-name:colorchange ;
+    animation-duration:10s;
+}
+.orange:hover{
+    transform:scale(1.5)
+}
+@keyframes colorchange{
+    from{
+        background-color: blue;
+    }
+    to{
+        background-color: red;
+    }
+}
+.item1{
+    background-color: blue;
+}
+.item2{
+    background-color:green;
+}
+.item3{
+    background-color: pink;
+}
+.item4{
+    background-color: yellow;
+}
+.item5{
+    background-color: red;
+}
+.item6{
+    background-color: brown;
+}
+.item7{
+    background-color: rgb(95, 9, 76);
+}
+.item8{
+    background-color: black;
+}
+.item9{
+    background-color: olivedrab;
+}
